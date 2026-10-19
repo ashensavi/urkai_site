@@ -1,0 +1,9 @@
+<svg width="420" height="108" viewBox="0 0 420 108" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="URKAI">
+  <g transform="translate(4,4)">
+    <path d="M48 0L86 13L77 25L48 15L19 25L10 13L48 0Z" fill="#0A0A0B"/>
+    <path d="M12 22L25 31L28 72L48 88L48 103L14 77L12 22Z" fill="#0A0A0B"/>
+    <path d="M84 22L71 31L68 72L48 88L48 103L82 77L84 22Z" fill="#0A0A0B"/>
+    <path d="M31 31L48 37L65 31L62 67L48 78L34 67L31 31Z" fill="#0A0A0B" opacity="0.16"/>
+  </g>
+  <text x="104" y="78" fill="#0A0A0B" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="72" font-weight="900" font-style="italic" letter-spacing="-5">URKAI</text>
+</svg>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="URKAI fitness equipment for home and commercial training spaces." />
+  <title>URKAI | Built for Stronger</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config={theme:{extend:{colors:{ink:'#0A0A0B',steel:'#16181C',signal:'#D7FF3F'},fontFamily:{sans:['Inter','ui-sans-serif','system-ui']},boxShadow:{soft:'0 20px 60px rgba(0,0,0,.18)'}}}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body{background:#0A0A0B}.grid-noise{background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:42px 42px}.shine{position:relative;overflow:hidden}.shine:after{content:"";position:absolute;inset:-150% -80%;background:linear-gradient(120deg,transparent 42%,rgba(255,255,255,.08),transparent 58%);transform:translateX(-30%);transition:.8s}.shine:hover:after{transform:translateX(35%)}
+  </style>
+</head>
+<body class="font-sans text-white antialiased">
+<header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/75 backdrop-blur-xl">
+  <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
+    <a href="index.html" class="text-white"><img src="assets/logo.svg" alt="URKAI" class="h-10 w-auto"></a>
+    <nav class="hidden items-center gap-8 text-sm font-semibold text-white/75 md:flex">
+      <a class="text-white" href="index.html">Home</a><a class="hover:text-white" href="products.html">Products</a><a class="hover:text-white" href="about.html">About</a><a class="hover:text-white" href="faq.html">FAQ</a>
+    </nav>
+    <a href="products.html" class="hidden rounded-full bg-white px-5 py-2.5 text-sm font-bold text-black md:inline-flex">Explore equipment</a>
+    <button id="menuBtn" class="md:hidden" aria-label="Open menu"><span class="block h-0.5 w-6 bg-white"></span><span class="mt-1.5 block h-0.5 w-6 bg-white"></span></button>
+  </div>
+  <div id="mobileMenu" class="hidden border-t border-white/10 bg-black px-6 py-5 md:hidden"><div class="grid gap-4 text-sm font-semibold"><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="faq.html">FAQ</a></div></div>
+</header>
+<main>
+  <section class="relative min-h-[760px] overflow-hidden pt-20">
+    <div class="absolute inset-0 bg-[url('assets/hero.webp')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/15"></div>
+    <div class="absolute inset-0 grid-noise opacity-30"></div>
+    <div class="relative mx-auto flex min-h-[680px] max-w-7xl items-center px-6 py-20 lg:px-8">
+      <div class="max-w-3xl">
+        <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-bold uppercase tracking-[.22em] text-white/70"><span class="h-2 w-2 rounded-full bg-signal"></span>Built for stronger</div>
+        <h1 class="text-5xl font-black uppercase leading-[.92] tracking-[-.055em] sm:text-7xl lg:text-[94px]">Train harder.<br><span class="text-white/45">Built to keep up.</span></h1>
+        <p class="mt-7 max-w-xl text-base leading-7 text-white/65 sm:text-lg">Performance-focused fitness equipment for home gyms, studios and commercial training spaces. Clean design, dependable construction and a range that grows with your goals.</p>
+        <div class="mt-9 flex flex-wrap gap-3"><a href="products.html" class="rounded-full bg-signal px-6 py-3.5 text-sm font-extrabold text-black transition hover:scale-[1.02]">Explore products</a><a href="about.html" class="rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-bold backdrop-blur transition hover:bg-white/10">Discover URKAI</a></div>
+        <div class="mt-14 grid max-w-2xl grid-cols-3 gap-5 border-t border-white/15 pt-6 text-xs uppercase tracking-[.18em] text-white/45"><div><span class="block text-2xl font-black tracking-tight text-white">01</span>Strength</div><div><span class="block text-2xl font-black tracking-tight text-white">02</span>Cardio</div><div><span class="block text-2xl font-black tracking-tight text-white">03</span>Accessories</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-24 text-black">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p class="text-xs font-black uppercase tracking-[.28em] text-black/45">Product universe</p><h2 class="mt-3 text-4xl font-black uppercase tracking-[-.04em] sm:text-5xl">Equipment for every setup.</h2></div><a href="products.html" class="text-sm font-bold underline underline-offset-4">View all products</a></div>
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <a href="products.html#strength" class="shine group min-h-80 rounded-3xl bg-[#f2f2f0] p-6"><div class="flex h-full flex-col justify-between"><span class="text-xs font-black uppercase tracking-[.24em] text-black/40">01</span><div><div class="mb-7 flex h-28 items-center justify-center"><div class="flex items-end gap-2"><span class="h-16 w-16 rounded-2xl bg-black/90"></span><span class="h-7 w-24 rounded-full bg-black/90"></span><span class="h-16 w-16 rounded-2xl bg-black/90"></span></div></div><h3 class="text-2xl font-black uppercase">Strength</h3><p class="mt-2 text-sm text-black/55">Dumbbells, bars, plates and more.</p></div></div></a>
+        <a href="products.html#racks" class="shine group min-h-80 rounded-3xl bg-[#141518] p-6 text-white"><div class="flex h-full flex-col justify-between"><span class="text-xs font-black uppercase tracking-[.24em] text-white/35">02</span><div><div class="mb-7 flex h-28 items-center justify-center"><div class="h-28 w-24 border-[9px] border-white/80 border-b-0"></div></div><h3 class="text-2xl font-black uppercase">Racks & benches</h3><p class="mt-2 text-sm text-white/55">Core pieces for serious training.</p></div></div></a>
+        <a href="products.html#cardio" class="shine group min-h-80 rounded-3xl bg-signal p-6"><div class="flex h-full flex-col justify-between"><span class="text-xs font-black uppercase tracking-[.24em] text-black/45">03</span><div><div class="mb-7 flex h-28 items-center justify-center"><div class="h-20 w-28 rounded-[50%] border-[12px] border-black/85"></div></div><h3 class="text-2xl font-black uppercase">Cardio</h3><p class="mt-2 text-sm text-black/60">Conditioning equipment for daily work.</p></div></div></a>
+        <a href="products.html#accessories" class="shine group min-h-80 rounded-3xl bg-[#ece8e2] p-6"><div class="flex h-full flex-col justify-between"><span class="text-xs font-black uppercase tracking-[.24em] text-black/40">04</span><div><div class="mb-7 flex h-28 items-center justify-center"><div class="h-20 w-32 rounded-3xl bg-black/90"></div></div><h3 class="text-2xl font-black uppercase">Accessories</h3><p class="mt-2 text-sm text-black/55">The details that complete your setup.</p></div></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#f4f4f1] py-24 text-black">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p class="text-xs font-black uppercase tracking-[.28em] text-black/40">Featured equipment</p><h2 class="mt-3 text-4xl font-black uppercase tracking-[-.04em] sm:text-5xl">Meet the URKAI range.</h2></div><a href="products.html" class="text-sm font-bold underline underline-offset-4">View full specifications</a></div>
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <a href="products.html#strength" class="group overflow-hidden rounded-3xl bg-white"><div class="overflow-hidden"><img src="assets/products/hex-dumbbell.webp" alt="URKAI Hex Dumbbell Set" class="w-full transition duration-500 group-hover:scale-[1.025]"></div><div class="p-6"><p class="text-xs font-black uppercase tracking-[.18em] text-black/35">Strength</p><h3 class="mt-2 text-xl font-black">Hex Dumbbell Set</h3><p class="mt-2 text-sm text-black/50">Rubber-coated hex heads · Chrome grip · 5–20 kg</p></div></a>
+        <a href="products.html#racks" class="group overflow-hidden rounded-3xl bg-white"><div class="overflow-hidden"><img src="assets/products/adjustable-bench.webp" alt="URKAI Adjustable Bench" class="w-full transition duration-500 group-hover:scale-[1.025]"></div><div class="p-6"><p class="text-xs font-black uppercase tracking-[.18em] text-black/35">Bench</p><h3 class="mt-2 text-xl font-black">Adjustable Bench</h3><p class="mt-2 text-sm text-black/50">7 backrest positions · 3 seat positions · 300 kg max</p></div></a>
+        <a href="products.html#cable" class="group overflow-hidden rounded-3xl bg-white"><div class="overflow-hidden"><img src="assets/products/functional-trainer.webp" alt="URKAI Functional Trainer" class="w-full transition duration-500 group-hover:scale-[1.025]"></div><div class="p-6"><p class="text-xs font-black uppercase tracking-[.18em] text-black/35">Cable</p><h3 class="mt-2 text-xl font-black">Functional Trainer</h3><p class="mt-2 text-sm text-black/50">Dual adjustable pulleys · 2:1 pulley ratio · Multi-grip attachments</p></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative overflow-hidden bg-[#101114] py-24">
+    <div class="absolute right-0 top-0 h-96 w-96 rounded-full bg-signal/10 blur-3xl"></div>
+    <div class="relative mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-2 lg:px-8">
+      <div><p class="text-xs font-black uppercase tracking-[.28em] text-signal">URKAI standard</p><h2 class="mt-4 text-4xl font-black uppercase tracking-[-.04em] sm:text-6xl">Quiet confidence.<br>Serious equipment.</h2></div>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-3xl border border-white/10 bg-white/[.03] p-6"><span class="text-2xl">◆</span><h3 class="mt-8 font-extrabold uppercase">Purpose-built</h3><p class="mt-2 text-sm leading-6 text-white/50">Focused on function, usability and long-term everyday training.</p></div>
+        <div class="rounded-3xl border border-white/10 bg-white/[.03] p-6"><span class="text-2xl">↗</span><h3 class="mt-8 font-extrabold uppercase">Modern design</h3><p class="mt-2 text-sm leading-6 text-white/50">A clean visual language made for modern fitness spaces.</p></div>
+        <div class="rounded-3xl border border-white/10 bg-white/[.03] p-6"><span class="text-2xl">◎</span><h3 class="mt-8 font-extrabold uppercase">Range-first</h3><p class="mt-2 text-sm leading-6 text-white/50">From individual essentials to full training setups.</p></div>
+        <div class="rounded-3xl border border-white/10 bg-white/[.03] p-6"><span class="text-2xl">＋</span><h3 class="mt-8 font-extrabold uppercase">Support that matters</h3><p class="mt-2 text-sm leading-6 text-white/50">Clear product guidance before and after purchase.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-signal py-20 text-black"><div class="mx-auto flex max-w-7xl flex-col justify-between gap-8 px-6 md:flex-row md:items-center lg:px-8"><div><p class="text-xs font-black uppercase tracking-[.25em] text-black/55">Build your space</p><h2 class="mt-3 max-w-3xl text-4xl font-black uppercase tracking-[-.045em] md:text-6xl">Your next setup starts here.</h2></div><a href="products.html" class="w-fit rounded-full bg-black px-7 py-4 text-sm font-extrabold text-white">Browse equipment</a></div></section>
+</main>
+<footer class="border-t border-white/10 bg-black py-12"><div class="mx-auto flex max-w-7xl flex-col justify-between gap-8 px-6 md:flex-row md:items-end lg:px-8"><div><img src="assets/logo.svg" class="h-9 w-auto" alt="URKAI"><p class="mt-4 max-w-md text-sm leading-6 text-white/40">Fitness equipment designed to look at home in ambitious training spaces.</p></div><div class="flex flex-wrap gap-6 text-xs font-bold uppercase tracking-[.18em] text-white/45"><a href="products.html">Products</a><a href="about.html">About</a><a href="faq.html">FAQ</a></div></div></footer>
+<script>const b=document.getElementById('menuBtn'),m=document.getElementById('mobileMenu');b?.addEventListener('click',()=>m.classList.toggle('hidden'));</script>
+</body></html>
